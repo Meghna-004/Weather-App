@@ -4,6 +4,18 @@ function displayTemperature(response) {
   let cityElement = document.querySelector("#current-city");
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
+
+  
+  let humidityElement = document.querySelector("#current-humidity");
+  humidityElement.innerHTML = response.data.temperature.humidity; // already %
+
+  
+  let windElement = document.querySelector("#current-wind");
+  windElement.innerHTML = Math.round(response.data.wind.speed);
+
+  
+  document.querySelector("#current-description").innerHTML =
+    response.data.condition.description;
 }
 
 function search(event) {
@@ -51,3 +63,4 @@ let currentDateELement = document.querySelector("#current-date");
 let currentDate = new Date();
 
 currentDateELement.innerHTML = formatDate(currentDate);
+
