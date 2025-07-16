@@ -1,13 +1,13 @@
-#Weather App
+# Weather App
 
 A beginner-friendly weather application that shows real-time weather data like temperature, humidity, and wind speed using the SheCodes Weather API. Built using HTML, CSS, and JavaScript.
 
-##Live Demo
+## Live Demo
 
 [View Live App](https://shecodes-weather213.netlify.app/)
 
 
-##App Screenshots
+## App Screenshots
 
 <img width="959" height="406" alt="image" src="https://github.com/user-attachments/assets/b38753ca-ae77-4cc2-a791-4f6874f49788" />
 
@@ -28,11 +28,11 @@ A beginner-friendly weather application that shows real-time weather data like t
 - Axios
 - [SheCodes Weather API](https://www.shecodes.io/weather)
 
-##Author
+## Author
 Arpita Paul
 https://github.com/Meghna-004
 
-##Acknowledgements
+## Acknowledgements
 
 -SheCodes for providing the weather API.
 -OpenWeatherMap as the original weather data source.
